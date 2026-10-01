@@ -8,18 +8,19 @@ A modular command-line media downloader for extracting and saving streaming vide
 
 ## Prerequisites
 
-- Python 3.10+
+- Node.js 18+
 - `ffmpeg` installed and accessible via system `$PATH`
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/loot-dl.git](https://github.com/your-username/loot-dl.git)
+git clone https://github.com/your-username/loot-dl.git
 cd loot-dl
 
-# Install dependencies
-pip install -r requirements.txt
+# Install dependencies (also installs Playwright browsers)
+npm install
 
-# Install CLI locally in editable mode
-pip install -e .
+# Link the CLI globally so you can use the `loot-dlp` command
+npm link
+```
