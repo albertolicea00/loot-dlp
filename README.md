@@ -1,4 +1,4 @@
-# loot-dl
+# loot-dlp
 
 A modular command-line media downloader for extracting and saving streaming video feeds, embedded players, and segmented web broadcasts.
 
@@ -15,8 +15,8 @@ A modular command-line media downloader for extracting and saving streaming vide
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/loot-dl.git
-cd loot-dl
+git clone https://github.com/albertolicea00/loot-dlp.git
+cd loot-dlp
 
 # Install dependencies (also installs Playwright browsers)
 npm install

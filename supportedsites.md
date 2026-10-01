@@ -1,6 +1,6 @@
 # Supported Providers & Protocols
 
-`loot-dl` relies on a modular extraction architecture with dedicated scrapers for catalog indices, automated resolvers for embedded players, and generic stream protocol parsers.
+`loot-dlp` relies on a modular extraction architecture with dedicated scrapers for catalog indices, automated resolvers for embedded players, and generic stream protocol parsers.
 
 ---
 
@@ -21,7 +21,7 @@ Below is the status matrix for primary site extractors, tracking operational sta
 
 ## Embedded Host Resolvers
 
-If a website delegates video delivery to third-party storage hosts or embedded players, `loot-dl` automatically intercepts the iframe and resolves the direct stream:
+If a website delegates video delivery to third-party storage hosts or embedded players, `loot-dlp` automatically intercepts the iframe and resolves the direct stream:
 
 | Host / Resolver | Max Resolution | Status | Last Updated |
 | :--- | :--- | :--- | :--- |
@@ -52,7 +52,7 @@ To check whether a specific page is supported or inspect the installed extractor
 
 ```bash
 # List all registered site extractors and active resolvers
-loot-dl --list-extractors
+loot-dlp --list-extractors
 
 # Dry-run a target URL to check extractor matching and stream health
-loot-dl "[https://example.com/watch/item](https://example.com/watch/item)" --dry-run
+loot-dlp "[https://example.com/watch/item](https://example.com/watch/item)" --dry-run
