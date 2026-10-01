@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# playwright browsers
+.cache/
+
+# ffmpeg logs
+*.ffmpeg.log
+
+# partial downloads
+*.tmp.mp4
+
+# downloaded media (don't commit actual video/subtitle files)
+*.mp4
+*.mkv
+*.srt
+*.ssa
+*.ass
+*.vtt
+
+# wasm temp files
+/tmp/loot_*.wasm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# env / secrets
+.env
+.env.*
